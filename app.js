@@ -8,6 +8,10 @@
     $(document).scroll(function() {
         var scrollTop = $(this).scrollTop();
 
+    var $navbar = $("#navbar"),
+        y_pos = $navbar.offset().top,
+        height = $navbar.height();
+
         if (scrollTop > y_pos + height) {
             $navbar.addClass("navbar-fixed").animate({
                 top: 0
