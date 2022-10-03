@@ -37,23 +37,8 @@ nav ul li:hover {
 }
 
 
-/*----------------------
-    $BODY
-    ----------------------*/
-
-body {
-    background: coral;
-}
 
 
-/*----------------------
-    $MISC
-    ----------------------*/
-
-.filler {
-    width: 1px;
-    height: 200px;
-}
 
 .two {
     height: 3000px;
